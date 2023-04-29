@@ -37,6 +37,12 @@ tr:nth-child(even){
     tr:nth-child(odd){
     background-color: green;
     }
+    .box{
+        
+        border: solid 10px black;
+        padding: 30px;
+        margin: 50px;
+    }
 
 li {
     float: left;
