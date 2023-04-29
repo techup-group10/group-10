@@ -17,11 +17,26 @@
 
 ul {
     float: right;
-    background-color: #6e24a0;
+    background-color: violet;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+#foto1{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
+    
+
+}
+tr:nth-child(even){
+    background-color: blue;
+    }
+    tr:nth-child(odd){
+    background-color: green;
+    }
 
 li {
     float: left;
@@ -36,12 +51,13 @@ li a {
 }
 
 li a:hover {
-    background-color: #010a0c;
+    background-color: silver;
     height: 22px;
-    color: #247BA0;
+    color: goldenrod;
 }
 
 table {
+    background-color: rgb(135, 39, 69);
     border-collapse: collapse;
     width: 100%;
 }
@@ -53,6 +69,8 @@ caption {
 th, td {
     text-align: center;
     padding: 8px;
+    font size: 30px;
+
 }
 
 th {
@@ -64,4 +82,23 @@ th {
     background-color: #5ADBFF;
     padding: 0.5em;
     text-align: right;
+}
+#btn{
+background-color: red;
+color: white;
+font-size: 20px;
+padding: 10px;
+margin: 10px
+
+
+
+
+
+
+
+
+}
+#btn:hover{
+    background-color: yellow;
+    color: cyan;
 }
