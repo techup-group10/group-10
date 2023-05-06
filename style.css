@@ -80,7 +80,7 @@ th, td {
 }
 
 th {
-    background-color: #094074;
+    background-color: red;
     color: white;
 }
 
@@ -107,4 +107,13 @@ margin: 10px
 #btn:hover{
     background-color: yellow;
     color: cyan;
+}
+button {
+    background-color: blue;
+    color: yellow;
+    padding: 20px;
+    margin: 30px;
+    font size: 20px;
+
+
 }
